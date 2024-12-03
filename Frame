@@ -1,0 +1,24 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package frame;
+
+import javax.swing.*;
+
+class FramePertamaku extends JFrame {
+    public FramePertamaku() {
+        setTitle("Frame Pertama"); // Corrected the title string
+        setSize(300, 200);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Exit application on close
+        setLocationRelativeTo(null); // Center the frame on the screen
+    }
+}
+
+public class Frameku {
+    public static void main(String[] args) {
+        FramePertamaku coba = new FramePertamaku();
+        coba.setVisible(true); // Use setVisible instead of show
+    }
+}
